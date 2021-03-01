@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700;900&display=swap');
+
+.body_style{
+    background-image: url("../img/Группа\ 1.png");
+    background-size: 100%;
+}
+
+.grand-panel__style{
+    background-color: #111A28; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 6% 3%;
+    width: 95%;
+    height: 95%;
+}
+
+.left-panel_style{    
+    width: 58%;
+    height: 100%;
+}
+
+.left-panel_style{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo_style{
+    display: flex;
+    margin: 2% 0 0 3%;
+}
+
+.sneakers_styles_img {
+    margin: 2% 0 0 6%;
+    width: 90%;
+    height: 90%;
+}
+
+.color-panel_style{
+    margin: 15% 0 5% 45%;
+    display: flex;
+}
+
+.color-panel-radio_styles_btn1{
+    display: none;
+    
+}
+
+.color-panel-radio_styles_upgr1{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #1F273F;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 5px
+}
+
+.color-panel-radio_styles_upgr1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #1F273F;
+    opacity: 0;
+    transition: .2s;
+    border-radius: 50%;
+}
+
+.color-panel-radio_styles_btn1:checked + .color-panel-radio_styles_upgr1::before {
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.color-panel-radio_styles_btn2{
+    display: none;
+}
+
+.color-panel-radio_styles_upgr2{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid #1F273F;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 5px
+}
+
+.color-panel-radio_styles_upgr2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    opacity: 0;
+    transition: .2s;
+    border-radius: 50%;
+}
+
+.color-panel-radio_styles_btn2:checked + .color-panel-radio_styles_upgr2::before {
+    border: 2px solid #1F273F;
+    opacity: 1;
+}
+
+.color-panel-radio_styles_btn3{
+    display: none;
+}
+
+.color-panel-radio_styles_upgr3{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 5px
+}
+
+.color-panel-radio_styles_upgr3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    opacity: 0;
+    transition: .2s;
+    border-radius: 50%;
+}
+
+.color-panel-radio_styles_btn3:checked + .color-panel-radio_styles_upgr3::before {
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.color-panel-radio_styles_btn4{
+    display: none;
+}
+
+.color-panel-radio_styles_upgr4{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 5px
+}
+
+.color-panel-radio_styles_upgr4::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+    opacity: 0;
+    transition: .2s;
+    border-radius: 50%;
+}
+
+.color-panel-radio_styles_btn4:checked + .color-panel-radio_styles_upgr4::before {
+    border: 2px solid white;
+    opacity: 1;
+}
+
+.right-panel_styles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 12% 0 0;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 280%;
+}
+
+.label-boots_style{
+    color: #e1e1e1;    
+}
+
+.boots-discription_style{    
+    color: #e1e1e1;    
+    font-size: large;
+    margin: -20px 0 0 0;
+}
+
+.boots-stars_style{
+    margin: 15px 0 0 0;
+    width: 170px;
+}
+
+.option-button_style{
+    background-color: #111A28;
+    border-color: white;    
+    color: white;
+    padding: 4px 5px 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 50%;
+}
+
+.list-option_style{
+    margin: 15px 0 0 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.add-to-cart-button_style{
+    background-color: #111A28;
+    border-color: white;    
+    color: white;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-size: 50%;
+    margin-top: 20px;
+    width: 300px;
+    height: 88px;
+}
+
+.option-button_style:hover{
+    background-color: #202935;
+}
+
+.add-to-cart-button_style:hover{
+    background-color: #202935;
+}
